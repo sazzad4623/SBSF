@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                android:id="@+id/social"
+                android:src="@drawable/social40"
+
+               />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                android:id="@+id/website"
+                android:src="@drawable/web40"
+                />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                android:id="@+id/services"
+                android:src="@drawable/activities40"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                android:id="@+id/activities"
+                android:src="@drawable/services40"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                android:id="@+id/events"
+                android:src="@drawable/events40"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                android:id="@+id/game"
+                android:src="@drawable/games40"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                android:id="@+id/join"
+                android:src="@drawable/join40"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                android:id="@+id/contact"
+                android:src="@drawable/contact40"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                android:id="@+id/spotlight"
+                android:src="@drawable/spotlight40"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="180dp"
+        android:src="@drawable/ic_action_office"
+        android:elevation="6dp"
+        android:id="@+id/fab_office"
+        app:backgroundTint="@color/fab1_color"
+        android:visibility="invisible"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/ic_action_dev2"
+        android:elevation="6dp"
+        android:id="@+id/fab_developer"
+        app:backgroundTint="@color/fab2_color"
+        android:visibility="invisible"/>
+
+   <android.support.design.widget.FloatingActionButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom|end"
+       android:layout_marginRight="@dimen/fab_margin_right"
+       android:layout_marginBottom="16dp"
+       android:src="@drawable/ic_action_plus"
+       android:elevation="6dp"
+       android:id="@+id/fab_plus"
+      />
+
+</android.support.design.widget.CoordinatorLayout>

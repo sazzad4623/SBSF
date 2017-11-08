@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.sbsf2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/rsz_1new_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SocialActivity" />
+        <activity android:name=".WebsiteActivity" />
+        <activity android:name=".ActivitiesActivity" />
+        <activity android:name=".ServicesActivity" />
+        <activity android:name=".EventsActivity" />
+        <activity android:name=".GameActivity" />
+        <activity android:name=".JoinusActivity" />
+        <activity android:name=".SpotlightActivity" />
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".FacebookgroupActivity" />
+        <activity android:name=".Facebookpage1Activity" />
+        <activity android:name=".Facebookpage2Activity" />
+        <activity android:name=".SbepActivity" />
+        <activity android:name=".SbcActivity" />
+        <activity android:name=".IsbepActivity" />
+        <activity android:name=".OfficeActivity" />
+        <activity android:name=".DeveloperActivity"></activity>
+    </application>
+
+</manifest>
